@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d2 {
+    height: 80px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.d2 .logo {
+    height: 80px;
+    width: 300px;
+    /* border: 1px solid black; */
+    float: left;
+}
+
+.d2 .logo h1 {
+    font-family: 'DM Sans', sans-serif;
+    line-height: 80px;
+    font-size: 45px;
+    margin-left: 165px;
+    letter-spacing: 1px;
+}
+
+.d3 {
+    height: 80px;
+    width: 700px;
+    /* border: 1px solid black; */
+    float: left;
+    margin-top: -80px;
+}
+
+.d4 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-left: 30px;
+    border-radius: 5px;
+    float: left;
+}
+
+.d4 i {
+    color: black;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.d3 select {
+    height: 50px;
+    width: 180px;
+    /* border: 1px solid black; */
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.d3 select option {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.d3 input {
+    height: 50px;
+    width: 350px;
+    /* border: 1px solid black;  */
+    margin-left: 270px;
+    margin-top: -50px;
+    float: left;
+    text-indent: 10px;
+}
+
+::placeholder {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+}
+
+
+.d5 {
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid black; */
+    margin-top: -50px;
+    margin-left: 610px;
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    background-color: black;
+}
+
+.d5 i {
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.d6 {
+    height: 80px;
+    width: 500px;
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 700px;
+    margin-top: -67px;
+}
+
+.d6 i {
+    float: left;
+    line-height: 80px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.d6 i:hover {
+    color: #c9c8ce;
+}
+
+.d6 p {
+    float: left;
+    line-height: 80px;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 10px;
+}
+
+.d6 p:hover {
+    color: #c9c8ce;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: #222222;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+header ul {
+    line-height: 50px;
+}
+
+header ul a {
+    text-decoration: none;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 45px;
+}
+
+header ul a:hover {
+    border-bottom: 3px solid white;
+    padding-bottom: 3px;
+}
+
+header ul button {
+    margin-left: 300px;
+    height: 40px;
+    width: 170px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+}
+
+header ul button:hover {
+    background-color: white;
+    color: black;
+}
+
+.d7 {
+    height: 90px;
+    width: 100%;
+    background-color: #fafafa;
+    border: 1px solid #c9c8ce;
+}
+
+.d8 {
+    float: left;
+    margin-left: 50px;
+    opacity: 0.5;
+    /* transition-duration: 1s; */
+}
+
+.d8 img {
+    height: 45px;
+    margin-top: 10px;
+    color: red;
+}
+
+.d8 p {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.d8:hover {
+    border-bottom: 3px solid black;
+    padding-bottom: 7px;
+    font-family: 'DM Sans', sans-serif;
+    opacity: 1;
+}
+
+.d60{
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-left: 1430px;
+    position: fixed;
+    top: 200px;
+    background-color: black;
+}
+
+.d60 p{
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+.d61{
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    border: 0px;
+    margin-left: 1430px;
+    position: fixed;
+    top: 300px;
+    background-color: #1fa360;
+}
+
+.d61 p{
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.d15{
+    height: 500px;
+    width: 975px;
+    border: 1px solid #c9c8ce;
+    margin-top: 100px;
+    font-family: 'DM Sans', sans-serif;   
+}
+
+.d15 h1{
+    font-size: 40px;
+}
+
+.d15 p{
+    font-size: 15px;
+    width: 930px;
+}
+
+.d15 label{
+    font-weight: bold;
+}
+
+.d15 input{
+    height: 35px;
+    text-indent: 10px;
+    width: 900px;
+    border: 1px solid #c9c8ce;
+    border-radius: 5px;
+}
+
+.d15 button{
+    height: 35px;
+    width: 900px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    transition-duration: 1s;
+}
+
+.d15 button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+footer{
+    height: 710px;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url(https://xstore.8theme.com/elementor2/furniture3/wp-content/uploads/sites/4/2022/12/footer-bg.png);
+    background-color: black;
+    margin-top: 100px;
+}
+
+.f1{
+    height: 500px;
+    width: 350px;
+    /* border: 1px solid white; */
+    margin-left: 150px;
+    float: left;
+}
+
+.f1 h1{
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+}
+
+.f1 p{
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+}
+
+.f2{
+    height: 300px;
+    width: 500px;
+    /* border: 1px solid white; */
+    margin-left: 700px;
+}
+
+.f2 .u1{
+    font-family: 'DM Sans', sans-serif;
+    float: left;
+}
+
+.f2 .u1 li{
+    color: white;
+    list-style: none;
+    margin-top: 30px;
+    transition-duration: 1s;
+}
+
+.f2 .u1 li:hover{
+    color: #646361;
+}
+
+
+.f2 .u2{
+    font-family: 'DM Sans', sans-serif;
+    float: left;
+    margin-left: 150px;
+}
+
+.f2 .u2 li{
+    color: white;
+    list-style: none;
+    margin-top: 30px;
+    transition-duration: 1s;
+}
+
+.f2 .u2 li:hover{
+    color: #646361;
+}
+
+.f3{
+    height: 100px;
+    width: 700px;
+    /* border: 1px solid white; */
+    float: left;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.f3 .p5{
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    /* margin-left: 100px; */
+}
+
+.f3 input{
+    height: 50px;
+    width: 450px;
+    border: 1px solid #646361;
+    background-color: transparent;
+    border-radius: 5px;
+    text-indent: 10px;
+}
+
+.f3 button{
+    height: 50px;
+    width: 150px;
+    font-family: 'DM Sans', sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.f3 button:hover{
+    color: #646361;
+}
+
+footer .p6{
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 150px;
+    width: 600px;
+}
